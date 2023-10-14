@@ -1,0 +1,56 @@
+            PascalABC
+Завдання A
+program Name;
+
+begin
+  Write('Hello World!');
+end.
+              Завдання B
+program HelloWorld;
+
+begin
+  WriteLn('program HelloWorld;');
+  WriteLn('begin');
+  WriteLn('  WriteLn(''Hello, World!'');');
+  Write('end.');
+end.
+              Завдання C
+program Calculate;
+begin
+  WriteLn((0.3 * 5*5 - 15)/(3.5 + 2*2));
+end.
+              Завдання D
+program Calculate;
+begin
+  WriteLn((7.5 / 0.5 - 12.4 / 0.4) / (6.3 / 0.3 - 4.6 / 0.2))
+end.
+              Завдання E
+program Calculate;
+begin
+  WriteLn(5*(12*(123*(1234+54321)+4321)+12)*5);
+end.
+              Завдання F
+program Calculate;
+begin
+  WriteLn(((7-6.35)/6.5+9.9)/((1.2/36+1.2/0.25-21/16)/(169/24)));
+end.
+              Завдання G
+program Calculate;
+begin
+  WriteLn(((11/4)/1.1+(10/3))/(2.5-0.4*(10/3))/(5/7)-(((13/6)+4.5)*0.375)/(2.75-(3/2)))
+end.
+              Завдання H
+program Calculate;
+begin
+  WriteLn(((4.625-13/18*9/26)/(9/4)+2.5/1.25/6.75)/(121/68)/((1/2-0.375)/0.125+(5/6-7/12)/(0.358-1.4796/13.7)));
+end.
+              Завдання I
+program HelloWorld;
+begin
+  WriteLn('#include <iostream>');
+  WriteLn();
+  WriteLn('int main()');
+  WriteLn('{');
+  WriteLn('    std::cout << "Hello World!" << std::endl;');
+  Write('}');
+end.
