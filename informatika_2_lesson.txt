@@ -1,0 +1,88 @@
+            PascalABC
+program xD;
+var
+  A, S:integer;
+begin
+  Read(A);
+  ReadLn(S);
+  WriteLn(A div S);
+end.
+
+program xD;
+var
+  A, S:integer;
+begin
+  Read(A);
+  ReadLn(S);
+  WriteLn(A mod S);
+end.
+
+program xD;
+var
+  m, n, K, L:integer;
+begin
+  Read(m);
+  Read(n);
+  K:=m div 20;
+  L:=n div 30;
+  Write(K + L);
+end.
+
+program xD;
+var
+  a, b:integer;
+begin
+  Read(a);
+  Read(b);
+  Write((a - b) div 4);
+end.
+
+program xD;
+var
+  a, b, c:integer;
+begin
+  Read(a);
+  b:=a div 5;
+  c:=b * 12;
+  Write(c);
+end.
+
+program xD;
+var
+  a, b, c:integer;
+begin
+  Read(a);
+  Read(b);
+  c:=a - b;
+  Write(a div c);
+end.
+
+program next;
+
+var
+  a, b: integer;
+
+begin
+  read(a, b);
+  WriteLn(a * a - b * b);
+  WriteLn((a - b) * (a - b));
+end.program next;
+
+var
+  a, b: integer;
+
+begin
+  read(a, b);
+  WriteLn(a * a - b * b);
+  WriteLn((a - b) * (a - b));
+end.
+
+program next;
+
+var
+  a, b: integer;
+
+begin
+  read(a, b);
+  WriteLn((abs(a) + abs(b)) - abs(a + b));
+end.
